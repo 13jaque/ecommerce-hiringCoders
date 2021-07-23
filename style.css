@@ -6,10 +6,33 @@
 
 }
 
+.titulo {
+
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.sub-titulo {
+
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 11px;
+    display: flow-root;
+    margin-left: 10%;
+    color: #c24d69;
+
+}
+
 .menu {
 
     width: 100%;
     height: 50px;
+    margin-left: 50%;
+    margin-top: -3%;
     background-color:rgb(2, 8, 58);
     font-family: 'Arial';
 
@@ -31,12 +54,12 @@
 
 .menu a {
 
-    padding: 15px;
+    padding: 14px;
     display: block;
     text-decoration: none;
     text-align: center;
     background-color: rgb(2, 8, 58);
-    color: white
+    color: white;
 
 }
 
@@ -56,20 +79,21 @@
 .menu a:hover {
 
     background-color: #f4f4f4;
-    color: #555;
+    color: #c24d69;
+    font-weight: bold;
 
 }
 
 .menu ul ul li {
 
     float: none;
-    border-bottom: solid 1px #ccc;
+    border-bottom: solid 1px rgb(2, 8, 58);
 
 }
 
 .menu ul ul li a {
 
-    background-color: #069;
+    background-color: #c24d69;
 
 }
 
@@ -94,9 +118,143 @@ label[for="btn_menu"] {
 
 }
 
+.titulo-slide {
+
+    letter-spacing: -1px;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 35%;
+    white-space: pre;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+
+}
+
+.subtitulo-slide {
+
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 20%;
+    border-top-style: double;
+    color: #c24d69;
+    background: transparent;
+
+}
+
+.slide {
+
+    width: 100%;
+    height: 500px;
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    animation: slide 20s infinite;
+
+}
+
+@keyframes slide {
+
+    25% {
+
+        background: url(img/img1.jpg);
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+
+        }
+
+    50% {
+
+        background: url(img/img3.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+    
+
+    }
+
+    75% {
+
+        background: url(img/img4.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+       
+
+    }
+
+    100% {
+
+        background: url(img/img1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+     
+
+    }
+
+}
+
+.rodape {
+
+    width: 100%;
+    
+
+}
+
+.rodape ul {
+
+    list-style: none;
+
+}
+
+.rodape ul li {
+
+    float: left;
+    margin-top: 3%;
+    width: 50px;
+    left: 45%;
+    position: relative;
+
+}
+
+.redes-socias {
+
+    float: left;
+    margin-top: 7%;
+    left: 44.5%;
+    position: absolute;
+    
+}
+
+.dev {
+
+    color: white;
+    position: relative;
+    bottom: 0px;
+    left: 35px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
 @media(max-width: 800px) {
 
-    
+    .titulo {
+
+        margin-left: 13%;
+        position: fixed;
+        bottom: 94%;
+        
+    }
+
+    .sub-titulo {
+
+       margin-left: 44%;
+      
+
+    }
 
     label[for="btn_menu"] {
 
@@ -147,95 +305,45 @@ label[for="btn_menu"] {
 
     }
 
-}
+    .rodape ul li {
 
-.slide {
-
-    width: 100%;
-    height: 500px;
-    background-image: url(img/img1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 500px;
-    animation: slide 20s infinite;
-
-}
-
-@keyframes slide {
-
-    25% {
-
-        background: url(img/img1.jpg);
-        background-size: 100% 500px;
-        background-repeat: no-repeat;
-        }
-
-    50% {
-
-        background: url(img/img3.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 500px;
-
-    }
-
-    75% {
-
-        background: url(img/img4.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 500px;
-
-    }
-
-    100% {
-
-        background: url(img/img1.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 500px;;
-
-    }
-
-}
-
-.rodape {
-
-    width: 100%;
-    font-family: 'Arial';
-
-}
-
-.rodape ul {
-
-    list-style: none;
-    position: relative;
-
-}
-
-.rodape ul li {
-
-    float: left;
-    margin-top: 3%;
-    width: 50px;
-    left: 50%;
-    position: relative;
-
-}
-
-.redes-socias {
-
-    float: left;
-    margin-top: 13%;
-    left: 26.5%;
-    position: relative;
+        
+        width: 50px;
+        left: 31%;
+       
     
+    }
 
-}
+    .redes-socias {
 
-.dev {
+    bottom: 60px;
+    margin-left: -12%;
 
-    color: white;
-    position: relative;
-    bottom: 5px;
-    left: 40px;
-    font-family: cursive;
-    font-weight: bold;
+    }
+
+    .dev {
+
+        margin-bottom: 5px;
+        left: 25px;
+
+    }
+
+    .titulo-slide {
+
+        margin-left: 18%;
+        margin-top: 30%;
+        font-size: 20px;
+
+    }
+
+    .subtitulo-slide {
+    
+        position: absolute;
+        margin-top: 50%;
+        font-size: 15px;
+        margin-left: -10%;
+        white-space: pre;
+
+    }
 
 }
