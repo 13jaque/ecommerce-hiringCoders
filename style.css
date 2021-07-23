@@ -245,8 +245,8 @@ label[for="btn_menu"] {
     .titulo {
 
         margin-left: 13%;
-        position: fixed;
-        bottom: 94%;
+        position: absolute;
+        bottom: 93%;
         
     }
 
@@ -308,17 +308,15 @@ label[for="btn_menu"] {
 
     .rodape ul li {
 
-        
         width: 50px;
         left: 31%;
        
-    
     }
 
     .redes-socias {
 
     bottom: -40px;
-    margin-left: -44.5%;
+    margin-left: -54%;
     position: relative;
 
     }
@@ -333,7 +331,7 @@ label[for="btn_menu"] {
     .titulo-slide {
 
         margin-left: 18%;
-        margin-top: 30%;
+        margin-top: 33%;
         font-size: 20px;
 
     }
