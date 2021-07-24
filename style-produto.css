@@ -254,10 +254,10 @@
     .cadastro-produto {
   
         position: relative;
-        left: 25%;
-        margin-top: -155%;
-        width: 50%;
-        height: 67%;
+        left: 20%;
+        margin-top: -165%;
+        width: 60%;
+        height: 68%;
     
     }
 
@@ -306,7 +306,7 @@
         left: 3%;
         position: absolute;
         letter-spacing: -1px;
-        top: 77%;
+        top: 75%;
         font-size: 12px;
     
     }
@@ -316,7 +316,7 @@
         left: 3%;
         position: absolute;
         letter-spacing: -1px;
-        top: 84%;
+        top: 83%;
         font-size: 12px;
     
     }
@@ -327,7 +327,7 @@
         width: 42%;
         left: 55%;
         height: 28px;
-        bottom: -95px;
+        bottom: -87px;
     
     }
 
@@ -337,7 +337,7 @@
         width: 42%;
         left: 55%;
         height: 28px;
-        bottom: -105px;
+        bottom: -95px;
     
     }
     
@@ -347,7 +347,7 @@
         width: 42%;
         left: 55%;
         height: 28px;
-        bottom: -115px;
+        bottom: -103px;
     
     }
     
@@ -357,7 +357,7 @@
         line-height: 27px;
         margin-left: 60px;
         margin-top: 53%;
-        bottom: 7px;
+        bottom: 10px;
         position: relative;
         padding: 3px 30px;
     

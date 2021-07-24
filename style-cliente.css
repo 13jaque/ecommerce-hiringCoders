@@ -189,8 +189,8 @@
     .cadastro-cliente {
   
         position: relative;
-        left: 20%;
-        margin-top: -155%;
+        left: 19%;
+        margin-top: -175%;
         width: 60%;
         height: 67%;
     
@@ -230,7 +230,7 @@
     
         font-size: 13px;
         line-height: 27px;
-        margin-left: 85px;
+        margin-left: 65px;
         margin-top: 53%;
         bottom: 25px;
         position: relative;
