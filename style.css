@@ -465,30 +465,31 @@ label[for="btn_menu"] {
     
     .titulo-slide {
 
-        margin-left: 10%;
-        margin-top: 38%;
+        margin-left: 0%;
+        margin-top: 41%;
 
     }
 
     .subtitulo-slide {
     
-        margin-top: 55%;
+        margin-top: 60%;
         font-size: 14px;
-        margin-left: -12%;
+        margin-left: -28%;
 
     }
 
     .redes-socias {
 
-        margin-left: -60%;
+        margin-left: -68%;
         position: relative;
 
     }
 
     .popup {
 
-        top: 47%;
+        top: 49%;
 
     }
 
 }
+
