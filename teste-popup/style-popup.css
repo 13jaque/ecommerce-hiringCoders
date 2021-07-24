@@ -1,0 +1,76 @@
+body {
+    background: blue;
+    font-family: Arial, sans-serif;
+    font-size: 120%;
+    padding: 20px;
+  }
+  
+  .popup {
+  
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 340px;
+    left: 50%;
+    margin-left: -150px;
+    height: 270px;
+    top: 50%;
+    border-radius:20px;
+    margin-top: -100px;
+    background: black;
+    z-index: 20;
+  }
+  
+  #popup1 {
+    box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  }
+  /*
+  a,
+  a:visited {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+  }*/
+  
+  
+  .titulo-cadastro {
+    margin: 2em 0;
+    color: white;
+  }
+  
+  .email-user {
+    border-radius: 13px;
+    width: 330px;
+    line-height: 33px;
+    color: red;
+  }
+  
+  
+  .btn-cadastrar{
+    margin: 55px 25% ;
+    border-radius:40px;
+    background:red;
+    padding: 1px 40px;
+    font-family: arial,sans-serif;
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+    float:right;
+   
+  }
+  
+  
+  .btn-fechar{
+  
+    background: red;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -16px;
+    width: 24px;
+    font-weight: bold;
+  }
+  

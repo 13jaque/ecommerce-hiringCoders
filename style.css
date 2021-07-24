@@ -30,11 +30,11 @@
 
 .menu {
 
-    width: 100%;
+    width: 35%;
     height: 50px;
-    margin-left: 70%;
+    margin-left: 65%;
     margin-top: -3%;
-    background-color:rgb(2, 8, 58);
+    background-color: rgb(2, 8, 58);
     font-family: 'Arial';
 
 }
@@ -122,10 +122,10 @@ label[for="btn_menu"] {
 .titulo-slide {
 
     letter-spacing: -1px;
-    font-size: 30px;
+    font-size: 40px;
     position: absolute;
     margin-top: 8%;
-    margin-left: 35%;
+    margin-left: 28%;
     white-space: pre;
     text-transform: uppercase;
     color: white;
@@ -240,6 +240,84 @@ label[for="btn_menu"] {
 
 }
 
+.popup {
+  
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 30%;
+    left: 35%;
+    top: 15%;
+    background: #c24d69;
+    z-index: 20;
+
+}
+  
+.popup1 {
+
+    box-shadow:  0px 0px 0px 9999px #c24d69;
+
+}
+
+.btn-fechar {
+  
+    position: absolute;
+    right: 9px;
+    top: 0px;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.titulo-contato {
+
+    margin: 20px;
+    font-size: 27px;
+    color: bisque;
+    text-align: center;
+    background: transparent;
+
+}
+
+.email {
+
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    color: white;
+
+}
+
+.telefone {
+
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background: transparent;
+    text-transform: uppercase;
+
+
+}
+
+.ou {
+
+    color: bisque;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    text-transform: uppercase;
+
+}
+
 @media(max-width: 800px) {
 
     .titulo {
@@ -316,7 +394,7 @@ label[for="btn_menu"] {
     .redes-socias {
 
     bottom: -40px;
-    margin-left: -54%;
+    left: 53%;
     position: relative;
 
     }
@@ -330,8 +408,8 @@ label[for="btn_menu"] {
 
     .titulo-slide {
 
-        margin-left: 18%;
-        margin-top: 33%;
+        left: 10%;
+        top: 17%;
         font-size: 20px;
 
     }
@@ -339,10 +417,44 @@ label[for="btn_menu"] {
     .subtitulo-slide {
     
         position: absolute;
-        margin-top: 50%;
+        left: 10%;
+        top: 17%;
         font-size: 15px;
-        margin-left: -10%;
         white-space: pre;
+
+    }
+
+    .popup {
+
+        width: 65%;
+        margin-top: -4%;
+        left: 15%;
+        position: absolute;
+
+    }
+
+    .titulo-contato {
+
+        font-size: 14px;
+        margin: 16px;
+
+    }
+
+    .email {
+
+        font-size: 10px;
+
+    }
+
+    .telefone {
+
+        font-size: 10px;
+
+    }
+
+    .ou {
+
+        font-size: 15px;
 
     }
 
@@ -354,22 +466,28 @@ label[for="btn_menu"] {
     .titulo-slide {
 
         margin-left: 10%;
-        margin-top: 45%;
+        margin-top: 38%;
 
     }
 
     .subtitulo-slide {
     
-        margin-top: 65%;
+        margin-top: 55%;
         font-size: 14px;
-        margin-left: -19%;
+        margin-left: -12%;
 
     }
 
     .redes-socias {
 
-    margin-left: -60%;
-    position: relative;
+        margin-left: -60%;
+        position: relative;
+
+    }
+
+    .popup {
+
+        top: 47%;
 
     }
 
