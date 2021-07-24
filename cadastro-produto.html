@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hiring Coders</title>
+
+    <link rel="shortcut icon" href="img/mao-soco.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style-produto.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="slide"></div>
+
+    <div class="cadastro-produto" id="popup1">
+
+        <h1 class="titulo-cadastroproduto">Brechó Maria</h1>
+
+        <p class="subtitulo-cadastroproduto">Cadastre seu produto</p>
+        
+        <label class="n1">nome</label><br>
+        <input type="text" class="nomecliente" id="nome" placeholder="Nome Completo"/>
+
+        <br><label class="n2">e-mail</label><br>
+        <input type="text" class="emailcliente" id="emailform" placeholder="E-mail"/>
+
+        <br><label class="n3">telefone</label><br>
+        <input type="text" class="telefonecliente" id="telefoneform" placeholder="Telefone"/><br>
+
+        <label class="n4" for="generoproduto">genero do produto:</label>
+        <select class="generoproduto" name="generoproduto" id="generoproduto">
+            <option value="F">Feminino</option>
+            <option value="M">Masculino</option>
+        </select><br>
+        
+        <label class="n5" for="tamanhoproduto">tamanho do produto:</label>
+        <select class="tamanhoproduto" name="tamanhoproduto" id="tamanhoproduto">
+            <option value="P">P-34/36</option>
+            <option value="M">M-38/40</option>
+            <option value="G">G-42/44</option>
+            <option value="GG">GG-46/48</option>
+        </select><br>
+
+        <label class="n6" for="modeloproduto">Modelo do produto:</label>
+        <select class="modeloproduto" name="modeloproduto" id="modeloproduto">
+            <option value="calca">Calça</option>
+            <option value="saia">Saia</option>
+            <option value="blusa">blusa</option>
+            <option value="short">short</option>
+        </select><br>
+
+        <button class="btn-cadastrar" onclick="salvarformproduto()">Cadastar</button>
+
+      </div>
+
+</body>
+
+</html>
