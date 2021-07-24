@@ -347,3 +347,30 @@ label[for="btn_menu"] {
     }
 
 }
+
+@media(max-width: 400px) {
+
+    
+    .titulo-slide {
+
+        margin-left: 4%;
+        margin-top: 55%;
+
+    }
+
+    .subtitulo-slide {
+    
+        margin-top: 80%;
+        font-size: 13px;
+        margin-left: -23%;
+
+    }
+
+    .redes-socias {
+
+    margin-left: -65%;
+    position: relative;
+
+    }
+
+}
