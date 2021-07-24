@@ -353,14 +353,14 @@ label[for="btn_menu"] {
     
     .titulo-slide {
 
-        margin-left: 7%;
-        margin-top: 50%;
+        margin-left: 10%;
+        margin-top: 45%;
 
     }
 
     .subtitulo-slide {
     
-        margin-top: 80%;
+        margin-top: 65%;
         font-size: 14px;
         margin-left: -19%;
 
@@ -368,7 +368,7 @@ label[for="btn_menu"] {
 
     .redes-socias {
 
-    margin-left: -61%;
+    margin-left: -60%;
     position: relative;
 
     }
